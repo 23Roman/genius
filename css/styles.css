@@ -23,20 +23,29 @@
   --dog-landing-3-c9: #d9a6ff;
   --dog-landing-3-c10: #ff6e9f; */
 }
+
 /* ------------ base ----------------- */
 body {
   color: var(--bakery-landing-1-s1);
+  font-family: 'Poppins', sans-serif;
   background-color: var(--bakery-landing-1-background);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
 }
 ul {
   list-style-type: none;
 }
 
 /* ------------ base ----------------- */
+
 /* ------------ hero-titel ----------------- */
 
 .hero-titel {
-  color: #faf4ea;
+  color: var(--bakery-landing-1-background);
+  text-align: center;
+  font-size: 128px;
+  font-weight: 900;
 }
 
 .hero-titel .accent {
@@ -44,8 +53,13 @@ ul {
 }
 
 .advantages-list {
-  color: #faf4ea;
+  color: var(--bakery-landing-1-background);
   background-color: var(--bakery-landing-1-c2);
+}
+
+.advantages-item {
+  font-weight: 300;
+  font-size: 20px;
 }
 
 /* ------------ hero-titel ----------------- */
@@ -56,9 +70,10 @@ ul {
 
 /* ------------ button ----------------- */
 .button {
-  color: #d9d9d9;
-  background: #819b57;
+  color: var(--bakery-landing-1-background);
+  background: var(--bakery-landing-1-c2);
   border: 2px solid #819b57;
+  font-weight: 600;
   border-radius: 8px;
   padding-block: 16px;
   padding-inline: 32px;
@@ -98,8 +113,20 @@ ul {
 /* ------------  ----------------- */
 
 .link {
-  color: #faf4ea;
+  color: var(--bakery-landing-1-background);
+  text-decoration: none;
 }
 .link:hover {
   color: var(--bakery-landing-1-c2);
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.traditions-text .brand {
+  color: var(--bakery-landing-1-c2);
+  font-weight: 600;
+}
+
+.traditions-text .uppercase {
+  text-transform: uppercase;
 }
